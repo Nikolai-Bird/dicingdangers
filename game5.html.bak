@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta name="viewport" content="initial-scale=1">
+
+<title>Text Game</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  
+  <div id="cotent">
+
+	  <div id="mainpage">
+		<input type="text" name="command" id="command" style="" /><button id="gobutton" style="width:23%; font-size:1.3em; padding:1%;">Go</button>
+		<div id="quickcommands">
+			<button class="ar">look</button><button class="ar">inv</button><button class="ar">eq</button><button class="ar">log</button>
+			<br />
+			<button class="af">look</button><button class="af">go</button><button class="af">take</button><button class="af">use</button><button class="af">on</button><button class="af">ask</button><button class="af">about</button><button class="af">buy</button><button class="af">sell</button><button class="af">from</button><button class="af">inv</button><button class="af">drop</button><button class="af">eq</button><button class="af">equip</button><button class="af">log</button><button class="af">drop</button><button class="af">hit</button><button class="af">?</button> 
+			 <button class="afback">&lt;</button> 
+			 <button class="afdel">X</button> 
+		</div>
+		<!-- div id="page" class="clickable"></div -->
+		<div id="page" class=""></div>
+	  </div>
+	  
+  </div>
+  
+
+  <script src="js/libs/jquery-2.0.3.min.js"></script>
+  <script src="js/libs/fuse.min.js"></script>
+  
+  <script src="gamedata.js"></script>
+  <script src="gamefunctions.js"></script>
+  <!-- script src="startdata.js"></script -->
+  <script src="gameengine.js"></script>
+  
+  
+</body>
+</html>

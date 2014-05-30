@@ -1,0 +1,131 @@
+/* Put your CSS here */
+
+/*
+#0F324B - Dark Blue
+#2D78A0 - Blue
+#F0F0F0 - Off White
+#87AA1E - Green
+#BED741 - Light Green
+*/
+
+
+html{
+	background:#666;
+	color:#F0F0F0;
+}
+body{
+	padding:20px;
+	background:#666;
+	color:#F0F0F0;
+	line-height:150%;
+	font-size:1.1em;
+}
+
+h1{
+	color:#999;
+}
+
+.blue{
+	color:#2D78A0;
+}
+.lightblue{
+	color:#bbbbff;
+}
+.green{
+	color:#87AA1E;
+}
+
+.tips{
+	color:#aaa;
+	font-size:0.8em;
+}
+
+
+
+a:link {color:#BED741;}      /* unvisited link */
+a:visited {color:#BED741;}  /* visited link */
+a:hover {color:#BED741;}  /* mouse over link */
+a:active {color:#BED741;}  /* selected link */
+a{
+	text-decoration:none;
+}
+
+.danger{
+	color:#f88;
+}
+
+/*
+.thumbnail{
+	height:48;
+	width:48px;
+	vertical-align: middle;
+}
+*/
+
+#quickcommands{
+	font-size:1.4em;
+}
+
+#cotent{
+	max-width:400px;
+	margin:auto;
+}
+
+.commandonpage{
+	font-weight:bold;
+	color:#2D78A0;
+	font-size:1.2em;
+}
+.commandonpagefail{
+	font-weight:bold;
+	color:#777;
+	font-size:1.2em;
+}
+
+.svg{
+	width:32px; 
+	height:32px; 
+	Xborder:1px solid black;
+	padding:3px;
+	border-radius:6px;
+	vertical-align: middle;
+}
+#command{
+	width:69%; 
+	margin-right:2%; 
+	padding:1%; 
+	margin-bottom:2px;
+	background-color:#333;
+	color:#bbb;
+	border:none;
+	border-radius:3px;
+	font-weight:bold;
+	font-size:1.3em;
+}
+button, select{
+	background-color:#0F324B;
+	border:1px solid #2D78A0;
+	color:#F0F0F0;
+	text-align:left;
+	border-radius:3px;
+	margin:1px;
+}
+
+button.af{
+	background-color:#87AA1E;
+	border:1px solid #BED741;
+}
+
+hr{
+	height:10px;
+	background-color:#555;
+	border:none;
+}
+
+.turn{
+	xborder:1px solid red;
+	padding:10px;
+	background-color:#333;
+	margin-top:10px;
+	border-radius:5px;
+}

@@ -1,0 +1,100 @@
+/* Put your CSS here */
+
+/*
+#0F324B - Dark Blue
+#2D78A0 - Blue
+#F0F0F0 - Off White
+#87AA1E - Green
+#BED741 - Light Green
+*/
+
+
+html{
+	background-color:#333;
+	color:#F0F0F0;
+}
+body{
+	padding:20px;
+	background-color:#333;
+	color:#555;
+	line-height:170%;
+	font-size:1.1em;
+	font-family: Goudy, Georgia, serif;
+}
+
+h1{
+	color:#595;
+	font-size:3em;
+	text-align:center;
+}
+
+#menu {
+  position: fixed;
+  left: auto;
+  top: 0px;
+  width: 680px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding:10px;
+  background-color:#fff;
+  border-radius:10px;
+	-moz-border-radius:10px; 
+	-webkit-border-radius: 10px;
+}
+
+#content{
+	width:700px;
+	margin:auto;
+	background-color:#fff;
+	border-radius:10px;
+	-moz-border-radius:10px; 
+	-webkit-border-radius: 10px;
+	
+}
+#page{
+	padding:10px;
+	padding-top:40px;
+	
+}
+
+.blue{
+	color:#2D78A0;
+}
+.lightblue{
+	color:#bbbbff;
+}
+.green{
+	color:#87AA1E;
+}
+
+.tips{
+	color:#aaa;
+	font-size:0.8em;
+}
+
+a:link {color:#87AA1E;}      /* unvisited link */
+a:visited {color:#87AA1E;}  /* visited link */
+a:hover {color:#BED741;}  /* mouse over link */
+a:active {color:#BED741;}  /* selected link */
+a{
+	text-decoration:none;
+}
+
+#quickcommands{
+	font-size:1.4em;
+}
+
+
+
+
+.commandonpage{
+	font-weight:bold;
+	color:#2D78A0;
+	font-size:1.2em;
+	
+}
+.commandonpagefail{
+	font-weight:bold;
+	color:#777;
+	font-size:1.2em;
+}
